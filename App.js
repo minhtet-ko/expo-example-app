@@ -4,6 +4,7 @@ import { createDrawerNavigator } from "@react-navigation/drawer";
 import { NavigationContainer, useNavigation } from "@react-navigation/native";
 import * as React from "react";
 import { Button, Text, View } from "react-native";
+// import {registerRootComponent} from 'expo';
 
 function HomeScreen() {
   const navigation = useNavigation();
